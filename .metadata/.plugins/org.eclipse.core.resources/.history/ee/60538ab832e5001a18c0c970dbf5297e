@@ -1,0 +1,124 @@
+package com.gomachanic.executor;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.net.URL;
+import java.util.Properties;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeSuite;
+
+import com.aventstack.extentreports.MediaEntityModelProvider;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.model.MediaType;
+import com.aventstack.extentreports.model.ScreenCapture;
+import com.gomachanic.resources.CaptureScreenShot;
+import com.gomachanic.resources.ExtentReport;
+import com.google.common.collect.ImmutableMap;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.remote.MobileCapabilityType;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.service.local.AppiumServiceBuilder;
+
+public class BaseSetUp extends ExtentReport {
+	public static AndroidDriver<AndroidElement> driver;
+	public static AppiumDriverLocalService service;
+
+	@BeforeSuite
+	public AppiumDriverLocalService startServer() throws IOException, InterruptedException {
+		Runtime.getRuntime().exec("taskkill /F /IM node.exe");
+		Thread.sleep(3000);
+		boolean flag = checkIfServerIsRunnning(4723);
+		if (!flag) {
+			service = AppiumDriverLocalService.buildDefaultService();
+			service.start();
+		}
+		return service;
+	}
+	public static boolean checkIfServerIsRunnning(int port) {
+
+		boolean isServerRunning = false;
+		ServerSocket serverSocket;
+		try {
+			serverSocket = new ServerSocket(port);
+
+			serverSocket.close();
+		} catch (IOException e) {
+			// If control comes here, then it means that the port is in use
+			isServerRunning = true;
+		} finally {
+			serverSocket = null;
+		}
+		return isServerRunning;
+	}
+
+
+	public static AndroidDriver<AndroidElement> setcapabilities(String appName) {
+		try {
+			FileInputStream fis = new FileInputStream(
+					System.getProperty("user.dir") + "\\src\\main\\java\\com\\gomachanic\\resources\\global.properties");
+			Properties prop = new Properties();
+			prop.load(fis);
+			File appDir = new File("src");
+			File app = new File(appDir, (String) prop.get(appName));
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			String device = (String) prop.get("device");
+//			if (device.contains("emulator")) {
+//				startEmulator();
+//			}
+			capabilities.setCapability("appium:chromeOptions", ImmutableMap.of("w3c", false));
+
+			// capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "SM
+			// M307F");
+
+			// capabilities.setCapability(MobileCapabilityType.BROWSER_NAME,"Chrome");
+			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, device);
+			// capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,
+			// "uiautomator2");
+			// capabilities.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT,
+			// 30);
+			capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
+			 capabilities.setCapability("noReset", true);
+			// capabilities.setCapability("appPackage", "com.flipkart.android");
+			// capabilities.setCapability("appActivity",
+			// "com.flipkart.android.activity.HomeFragmentHolderActivity");
+			driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+			driver.manage().timeouts().implicitlyWait(300, TimeUnit.SECONDS);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return driver;
+	}
+
+	@AfterMethod
+	public void getResult(ITestResult result) {
+		if (result.getStatus() == ITestResult.SUCCESS) {
+			test.pass(MarkupHelper.createLabel("PASS", ExtentColor.GREEN)).log(Status.PASS, result.getName());
+		} else if (result.getStatus() == ITestResult.FAILURE) {
+			String screenShotPath = CaptureScreenShot.captureScreenShot(driver, result.getName());
+			media = new ScreenCapture();
+			media.setMediaType(MediaType.IMG);
+			media.setPath(screenShotPath);
+			mediaEntityModelProvider = new MediaEntityModelProvider(media);
+			try {
+				test.fail(MarkupHelper.createLabel("FAIL", ExtentColor.RED))
+						.fail("ScreenShot" + result.getMethod().getMethodName(), mediaEntityModelProvider)
+						.log(Status.FAIL, "Test Case failed is :" + result.getName())
+						.log(Status.FAIL, result.getThrowable());
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+	
+
+
+}

@@ -1,0 +1,78 @@
+2020-08-23 19:47:20,530 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-23 19:47:49,571 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: AutoAppium:Gomachanic:0.0.1-SNAPSHOT @ C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\pom.xml.
+2020-08-23 19:47:50,745 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gomachanic/src/main/java
+2020-08-23 19:47:50,746 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Gomachanic/src/test/java
+2020-08-23 19:47:50,929 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2020-08-23 19:47:52,721 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:47:52,722 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 19:47:52,724 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:47:52,724 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 19:49:04,856 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:49:04,856 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 19:49:04,858 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:49:04,858 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 19:54:21,609 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:54:21,609 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 19:54:21,610 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 19:54:21,610 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 20:15:46,348 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:15:46,349 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 20:15:46,350 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:15:46,350 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 20:46:48,823 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-23 20:59:07,014 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:59:07,015 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 20:59:07,017 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:59:07,017 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 20:59:08,037 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:59:08,037 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 20:59:08,038 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 20:59:08,039 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:13:32,167 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:13:32,168 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:13:32,169 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:13:32,170 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:14:15,902 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:14:15,902 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:14:15,902 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:14:15,903 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:14:39,714 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:14:39,714 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:14:39,716 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:14:39,716 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:18:09,942 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:18:09,943 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:18:09,944 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:18:09,944 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:19:13,721 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:13,721 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:19:13,722 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:13,722 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:19:35,729 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:35,729 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:19:35,732 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:35,732 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:19:45,505 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:45,505 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:19:45,506 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:19:45,507 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:20:08,930 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:08,930 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:20:08,931 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:08,932 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:20:47,808 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:47,808 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:20:47,810 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:47,810 [Worker-33: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:20:59,795 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:59,795 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:20:59,796 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:20:59,796 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:21:35,360 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:21:35,360 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:21:35,361 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:21:35,361 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
+2020-08-23 21:21:40,031 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:21:40,031 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\main\resources
+2020-08-23 21:21:40,032 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-23 21:21:40,033 [Worker-38: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Senthil Dhandapani\Downloads\Gomachanic\Gomachanic\src\test\resources
